@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <style name="CommonRegular">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="CommonTitle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginTop">@dimen/dp_10</item>
+        <item name="android:layout_marginBottom">@dimen/dp_10</item>
+        <item name="android:text">@string/txt_title</item>
+        <item name="android:textSize">@dimen/sp_18</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="CommonImageview">
+        <item name="android:layout_width">@dimen/dp_180</item>
+        <item name="android:layout_height">@dimen/dp_120</item>
+        <item name="android:layout_marginRight">@dimen/dp_4</item>
+        <item name="android:layout_marginLeft">@dimen/dp_2</item>
+        <item name="android:src">@drawable/img</item>
+    </style>
+
+</resources>
